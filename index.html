@@ -215,7 +215,7 @@
     </div>
 
     <div class="flex justify-between py-10 px-8 relative">
-      <div class="absolute -left-20 -mt-16">
+      <div class="absolute -left-20 -mt-16 z-30 invisible md:visible">
         <svg
           width="252"
           height="252"
@@ -227,7 +227,12 @@
         </svg>
       </div>
 
-      <div class="xl:hidden flex flex-row gap-3">
+      <div
+        class="invisible md:visible absolute md:relative flex flex-row gap-3"
+      >
+        <div class="absolute z-30 -top-[12em] left-[4.5em]">
+          <img alt="zulfa" width="510" src="./zulfa.png" />
+        </div>
         <svg
           width="626"
           height="581"
